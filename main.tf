@@ -30,7 +30,7 @@ vpc_security_group_ids = [aws_security_group.blog.id]
 }
 
 
-resource = "aws_security_group" "blog" {
+resource "aws_security_group" "blog" {
   name           = "blog"
   description    = "Allow http/https in. Allow all out"
 
