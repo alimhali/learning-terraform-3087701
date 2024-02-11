@@ -61,7 +61,7 @@ resource "aws_security_group_rule" "Allow_https_in" {
 resource "aws_security_group_rule" "Allow_all_out" {
   type         = "egress"
   from_port    = 0
-  to_port      = 
+  to_port      = 0
   protocol     = "-1"
   cidr_blocks   = ["0.0.0.0/0"]
   
